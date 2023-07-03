@@ -1,0 +1,136 @@
+a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    margin-right: 25px;
+    background-color: rgb(23, 23, 23); /* Box background color */
+    color: #d7dfee; /* Box text color */
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5px;
+}
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: auto;
+text-align: center;
+background-color: gray;
+background-image: url(img/paris.png);
+background-size: cover;
+background-attachment: fixed;
+}
+.MAIN{
+    margin: auto;
+    background-color: white;
+    height: 650px;
+    width: 550px;
+    text-align: center;
+    border-style: double;
+    background-image: url(img/eiffel.jpg);
+    background-size: cover;
+    font-size: larger;
+    margin-top: 10px;
+}
+.text  {
+    background-color: rgb(23, 23, 23);
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: auto;
+    width: 550px;
+    border-style: double;
+    border-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+img{
+    border-style: double;
+    border-color: black;
+    margin: initial;
+    height: 450px;
+    width: 550px;
+}
+.louvre{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+    width: 550px;
+    border-style: double;
+    border-color: white;
+
+}
+@media screen and (min-width:800px){
+    .MAIN{
+        width: 700px;
+        height: 750px;
+    }
+    .text{
+        width: 700px;
+    }
+    img{
+        width: 700px;
+        height: 500px;
+    }
+    .louvre{
+        width: 700px;
+    }
+
+}
+@media screen and (min-width:1000px){
+    a{
+        padding: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        width: 100px;
+        font-size: larger;
+    }
+
+}
+@media screen and (min-width:1500px)
+{
+    .MAIN{
+        margin-top: 30px;
+        position: relative;
+        right:455px ;
+        top: 50px;
+        width: 600px;
+        height: 650px;
+    }
+    .text{
+        width: 600px;
+        position: relative;
+        right: 455px;
+        top: 50px;
+    }
+    img{
+        position: relative;
+        bottom: 776px;
+        left: 325px;
+        width: 880px;
+        height: 650px;
+    }
+    .louvre{
+        width: 880px;
+        position: relative;
+        bottom: 779px;
+        left: 324px;
+        height: 104px;
+    }
+    h1{
+        z-index: 1;
+        position: relative;
+        left: 450px;
+        bottom: 140px;
+        font-size: 75px;
+    }
+}
+
+
